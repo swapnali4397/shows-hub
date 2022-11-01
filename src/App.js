@@ -1,3 +1,4 @@
+import React from "react";
 import { Container } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
@@ -10,7 +11,7 @@ import Trending from "./Pages/Trending/Trending";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <div className="App">
         <Container>
@@ -23,7 +24,7 @@ function App() {
         </Container>
       </div>
       <SimpleBottomNavigation />
-    </div>
+    </>
   );
 }
 
