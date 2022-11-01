@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import * as React from "react";
+import React from "react";
 import Modal from "@mui/material/Modal";
 import Backdrop from "@mui/material/Backdrop";
 import Fade from "@mui/material/Fade";
