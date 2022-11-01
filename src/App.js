@@ -1,5 +1,4 @@
 import { Container } from "@mui/material";
-import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
@@ -11,7 +10,7 @@ import Trending from "./Pages/Trending/Trending";
 
 function App() {
   return (
-    <Fragment>
+    <div>
       <Header />
       <div className="App">
         <Container>
@@ -24,7 +23,7 @@ function App() {
         </Container>
       </div>
       <SimpleBottomNavigation />
-    </Fragment>
+    </div>
   );
 }
 
